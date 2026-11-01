@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.DS_Store
+
+# AIモデルの重みファイル（各PCで初回のみ取得）
+weights/
+*.pt
+*.onnx
+
+# 入出力ワークスペース
+workspace/
+output/
+*.psd
